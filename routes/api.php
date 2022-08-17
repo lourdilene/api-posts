@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::post('/auth/register', [AuthController::class, 'createUser']);
-Route::post('/auth/login', [AuthController::class, 'loginUser']);
+Route::post('/auth/login', [AuthController::class, 'loginUser'])->name('login');
 
 Route::apiResource('posts', PostController::class)->middleware('auth:sanctum');
 
