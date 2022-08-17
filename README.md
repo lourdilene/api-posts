@@ -24,10 +24,17 @@ Acesse o docker e execute as migrations:
     root@e917382508cb:/var/www/html# php artisan migrate
 
 ## Rode os tests
+Acesse o containner de banco e rode o comando de migrates para criar as tabelas no banco de teste. 
+O comando para rodar os testes é:
 
     php artisan test
 
-# Endpoinst
+# Queue
+Após inserir alguns comentários e likes. Execute o seguinte comando no docker laravel para publicar os comentários e likes
+
+    php artisan queue:work 
+
+# Endpoints
 Na pasta do projeto, vá até a pasta 'insomia'. Clique na pasta para que a página abra no navegador. 
 ![](insomia/2022-08-16_23-27.png)
 
