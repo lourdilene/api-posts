@@ -28,8 +28,11 @@ Acesse o docker e execute as migrations:
     php artisan test
 
 # Endpoinst
-Podem ser acessados na pasta [/insomia](./insomia/endpoints.html). 
+Na pasta do projeto, vá até a pasta 'insomia'. Clique na pasta para que a página abra no navegador. 
+![](insomia/2022-08-16_23-27.png)
 
+A página abrirá no navegador da seguinte forma:
+![](insomia/2022-08-16_23-27_1.png)
 
 Primeiro crie um usuário e em seguida copie o token para acessar os endpoints.
 
